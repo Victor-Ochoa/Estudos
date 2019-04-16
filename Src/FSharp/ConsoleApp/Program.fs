@@ -1,5 +1,14 @@
 ﻿open System
 
+let fim_console() =
+    printfn ""
+    printfn "Fim da Aplicação"
+    0
+
+let espaco_funcao() =
+    printfn ""
+    printfn ""
+
 let exibir_PI() =
     printfn "Exibir PI"
 
@@ -9,14 +18,43 @@ let exibir_PI() =
     printfn "PI: %f" System.Math.PI
     printfn "BIG PI %M"big_pi
 
-let fim_console() =
-    printfn ""
-    printfn "Fim da Aplicação"
-    0
+let mutabilidade() =
+    printfn "Mutabilidade:"
+
+    printfn "Predicato mutable"
+    let mutable x = 175
+    printfn "valor original de x: %i" x
+    x <- 170 
+    printfn "valor modificado de x: %i" x
+
+    printfn "Predicado ref"
+    let y = ref 10
+    printfn "valor original de y: %i" !y
+    y := 15 
+    printfn "valor modificado de y: %i" !y
+
+let fazendo_funcao_soma() =
+    printfn "Função basica de soma dentro de outra função:"
+
+    let somar(x:int, y:int) : int = 
+        x + y
+
+    printfn "7 + 5 = %i" (somar(7, 5))
+
 
 [<EntryPoint>]
 let main argv =
+
+    fazendo_funcao_soma()
+
+    espaco_funcao()
+
+    mutabilidade()
+
+    espaco_funcao()
+
     exibir_PI()
 
-    
+    espaco_funcao()
+
     fim_console()

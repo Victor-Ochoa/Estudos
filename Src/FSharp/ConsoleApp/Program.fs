@@ -5,8 +5,9 @@ let fim_console() =
     printfn "Fim da Aplicação"
     0
 
-let espaco_funcao() =
+let Executar_funcao f =
     printfn ""
+    f()
     printfn ""
 
 let exibir_PI() =
@@ -54,12 +55,12 @@ let fazendo_funcao_resursiva() =
 [<EntryPoint>]
 let main argv =
 
-    fazendo_funcao_resursiva()
-    espaco_funcao()
-    fazendo_funcao_soma()
-    espaco_funcao()
-    mutabilidade()
-    espaco_funcao()
-    exibir_PI()
-    espaco_funcao()
+    Executar_funcao fazendo_funcao_resursiva
+    
+    Executar_funcao fazendo_funcao_soma
+
+    Executar_funcao mutabilidade
+
+    Executar_funcao exibir_PI
+
     fim_console()

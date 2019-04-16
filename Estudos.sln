@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FSharp", "FSharp", "{28C7CFC5-3A70-4EC3-A647-76378F4CA32E}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ConsoleApp", "Src\FSharp\ConsoleApp\ConsoleApp.fsproj", "{24C5438E-6BE6-41EF-8635-AA7561EE0332}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24C5438E-6BE6-41EF-8635-AA7561EE0332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C5438E-6BE6-41EF-8635-AA7561EE0332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C5438E-6BE6-41EF-8635-AA7561EE0332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C5438E-6BE6-41EF-8635-AA7561EE0332}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{24C5438E-6BE6-41EF-8635-AA7561EE0332} = {28C7CFC5-3A70-4EC3-A647-76378F4CA32E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7E192BB4-7F5F-4F2D-9066-A21300F07EC2}

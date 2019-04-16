@@ -27,6 +27,7 @@ let mutabilidade() =
     x <- 170 
     printfn "valor modificado de x: %i" x
 
+    printfn ""
     printfn "Predicado ref"
     let y = ref 10
     printfn "valor original de y: %i" !y
@@ -41,20 +42,24 @@ let fazendo_funcao_soma() =
 
     printfn "7 + 5 = %i" (somar(7, 5))
 
+let fazendo_funcao_resursiva() =
+    printfn "Função recursiva fatorial:"
+
+    let rec fatorial x =
+        if(x < 1) then 1
+        else x * fatorial(x - 1)
+
+    printfn "Fatorial de 4: %i" (fatorial 4)
 
 [<EntryPoint>]
 let main argv =
 
+    fazendo_funcao_resursiva()
+    espaco_funcao()
     fazendo_funcao_soma()
-
     espaco_funcao()
-
     mutabilidade()
-
     espaco_funcao()
-
     exibir_PI()
-
     espaco_funcao()
-
     fim_console()

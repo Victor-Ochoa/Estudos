@@ -1,8 +1,22 @@
-﻿// Learn more about F# at http://fsharp.org
+﻿open System
 
-open System
+let exibir_PI() =
+    printfn "Exibir PI"
+
+    let big_pi = System.Math.PI
+                 |> Convert.ToDecimal
+
+    printfn "PI: %f" System.Math.PI
+    printfn "BIG PI %M"big_pi
+
+let fim_console() =
+    printfn ""
+    printfn "Fim da Aplicação"
+    0
 
 [<EntryPoint>]
 let main argv =
-    printfn "Hello World from F#!"
-    0 // return an integer exit code
+    exibir_PI()
+
+    
+    fim_console()

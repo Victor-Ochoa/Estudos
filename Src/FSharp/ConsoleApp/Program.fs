@@ -21,6 +21,7 @@ let main argv =
     //Executar_funcao Func.expressao_lambda
     //Executar_funcao Func.inicio_pipiline
     //Executar_funcao Func.unindo_funcoes
+    //Executar_funcao Func.ordem_Execut
     //printfn "Matematica"
     //Executar_funcao Matematica.matematica_basica
     //Executar_funcao Matematica.tipo_valor
@@ -29,7 +30,9 @@ let main argv =
     //printfn "Loop"
     //Executar_funcao Loop.loop_while
     //Executar_funcao Loop.loop_for
-    printfn "Condicionais"
-    Executar_funcao Condicionais.cond_if
+    //printfn "Condicionais"
+    //Executar_funcao Condicionais.cond_if
+    printfn "Listas"
+    Executar_funcao Lista.lista
 
     fim_console()

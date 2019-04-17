@@ -51,3 +51,15 @@ let unindo_funcoes() =
 
     printfn "mult_add 10: %i" (mult_add 10)
     printfn "add_mult 10: %i" (add_mult 10)
+
+let ordem_Execut() =
+    
+    let addA x = x + "A"
+    let addB x = x + "B"
+    let addC x = x + "C"
+    let addD x = x + "D"
+    let addE x = x + "E"
+
+    let add = addA >> addB << addC >> addD << addE
+
+    printfn " %s " (add "")

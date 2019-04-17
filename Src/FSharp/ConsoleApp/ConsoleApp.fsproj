@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Scripts\TupleStuff.fs" />
     <Compile Include="Scripts\OptionStuff.fs" />
     <Compile Include="Scripts\EnumStuff.fs" />
     <Compile Include="Scripts\Lista.fs" />

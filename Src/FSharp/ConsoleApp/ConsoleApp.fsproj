@@ -6,7 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Scripts\Math.fs" />
+    <Compile Include="Scripts\StringFunc.fs" />
+    <Compile Include="Scripts\Matematica.fs" />
     <Compile Include="Scripts\Valores.fs" />
     <Compile Include="Scripts\Func.fs" />
     <Compile Include="Program.fs" />

@@ -6,6 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Scripts\OptionStuff.fs" />
+    <Compile Include="Scripts\EnumStuff.fs" />
     <Compile Include="Scripts\Lista.fs" />
     <Compile Include="Scripts\Condicionais.fs" />
     <Compile Include="Scripts\Loop.fs" />

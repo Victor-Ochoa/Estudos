@@ -44,8 +44,13 @@ let main argv =
     //Executar_funcao RecordStuff.record_stuff
     //printfn "Sequence"
     //Executar_funcao SequencesStuff.seq_stuff
-    printfn "Map"
-    Executar_funcao MapStuff.map_stuff
-
+    //printfn "Map"
+    //Executar_funcao MapStuff.map_stuff
+    //printfn "Generic"
+    //Executar_funcao GenericStuff.generic_stuff
+    //printfn "Exception"
+    //Executar_funcao Exp.exp_stuff
+    printfn "Struct"
+    Executar_funcao StructStuff.struct_stuff
 
     fim_console()

@@ -40,7 +40,12 @@ let main argv =
     //Executar_funcao OptionStuff.divisao_0
     //printfn "Tuple"
     //Executar_funcao TupleStuff.tupleReturn
-    printfn "Record"
-    Executar_funcao RecordStuff.record_stuff
+    //printfn "Record"
+    //Executar_funcao RecordStuff.record_stuff
+    //printfn "Sequence"
+    //Executar_funcao SequencesStuff.seq_stuff
+    printfn "Map"
+    Executar_funcao MapStuff.map_stuff
+
 
     fim_console()

@@ -50,7 +50,9 @@ let main argv =
     //Executar_funcao GenericStuff.generic_stuff
     //printfn "Exception"
     //Executar_funcao Exp.exp_stuff
-    printfn "Struct"
-    Executar_funcao StructStuff.struct_stuff
+    //printfn "Struct"
+    //Executar_funcao StructStuff.struct_stuff
+    printfn "Class"
+    Executar_funcao ClassStuff.class_stuff
 
     fim_console()

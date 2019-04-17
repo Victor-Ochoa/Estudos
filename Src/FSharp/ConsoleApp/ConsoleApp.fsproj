@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Scripts\ClassStuff.fs" />
     <Compile Include="Scripts\StructStuff.fs" />
     <Compile Include="Scripts\Exp.fs" />
     <Compile Include="Scripts\GenericStuff.fs" />

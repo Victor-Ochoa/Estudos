@@ -52,8 +52,20 @@ let fazendo_funcao_resursiva() =
 
     printfn "Fatorial de 4: %i" (fatorial 4)
 
+let expressao_lambda() =
+    printfn "Expressão lambda:"
+
+    let rand_list = [1;2;3]
+
+    let rand_list2 = List.map (fun x -> x * 2) rand_list
+
+    printfn "Lista original: %A" rand_list
+    printfn "Lista dobrada: %A" rand_list2
+
 [<EntryPoint>]
 let main argv =
+    
+    Executar_funcao expressao_lambda
 
     Executar_funcao fazendo_funcao_resursiva
     

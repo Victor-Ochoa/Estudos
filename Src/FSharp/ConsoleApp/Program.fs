@@ -65,14 +65,10 @@ let expressao_lambda() =
 [<EntryPoint>]
 let main argv =
     
-    Executar_funcao expressao_lambda
-
-    Executar_funcao fazendo_funcao_resursiva
-    
-    Executar_funcao fazendo_funcao_soma
-
-    Executar_funcao mutabilidade
-
     Executar_funcao exibir_PI
+    Executar_funcao mutabilidade
+    Executar_funcao fazendo_funcao_soma
+    Executar_funcao fazendo_funcao_resursiva
+    Executar_funcao expressao_lambda
 
     fim_console()

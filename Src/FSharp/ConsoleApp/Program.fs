@@ -38,7 +38,9 @@ let main argv =
     //Executar_funcao EnumStuff.enum_stuff
     //printfn "Option"
     //Executar_funcao OptionStuff.divisao_0
-    printfn "Tuple"
-    Executar_funcao TupleStuff.tupleReturn
+    //printfn "Tuple"
+    //Executar_funcao TupleStuff.tupleReturn
+    printfn "Record"
+    Executar_funcao RecordStuff.record_stuff
 
     fim_console()

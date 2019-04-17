@@ -23,5 +23,7 @@ let main argv =
     printfn "Matematica"
     Executar_funcao Matematica.matematica_basica
     Executar_funcao Matematica.tipo_valor
+    printfn "String"
+    Executar_funcao StringFunc.exibir_resultados
 
     fim_console()

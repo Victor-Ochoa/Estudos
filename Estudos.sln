@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FSharp", "FSharp", "{28C7CFC5-3A70-4EC3-A647-76378F4CA32E}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ConsoleApp", "Src\FSharp\ConsoleApp\ConsoleApp.fsproj", "{24C5438E-6BE6-41EF-8635-AA7561EE0332}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "ConsoleApp", "Src\FSharp\ConsoleApp\ConsoleApp.fsproj", "{24C5438E-6BE6-41EF-8635-AA7561EE0332}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Produto_Escalar", "Produto_Escalar", "{33F50CD7-518B-44D8-AE49-ED547B79F4DE}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ProdEscalar", "Src\FSharp\Produto_Escalar\ProdEscalar\ProdEscalar.fsproj", "{8CDAC1EB-021B-4FFF-80FB-C94E76BA9B22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,18 @@ Global
 		{24C5438E-6BE6-41EF-8635-AA7561EE0332}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24C5438E-6BE6-41EF-8635-AA7561EE0332}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24C5438E-6BE6-41EF-8635-AA7561EE0332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CDAC1EB-021B-4FFF-80FB-C94E76BA9B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CDAC1EB-021B-4FFF-80FB-C94E76BA9B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CDAC1EB-021B-4FFF-80FB-C94E76BA9B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CDAC1EB-021B-4FFF-80FB-C94E76BA9B22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{24C5438E-6BE6-41EF-8635-AA7561EE0332} = {28C7CFC5-3A70-4EC3-A647-76378F4CA32E}
+		{33F50CD7-518B-44D8-AE49-ED547B79F4DE} = {28C7CFC5-3A70-4EC3-A647-76378F4CA32E}
+		{8CDAC1EB-021B-4FFF-80FB-C94E76BA9B22} = {33F50CD7-518B-44D8-AE49-ED547B79F4DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7E192BB4-7F5F-4F2D-9066-A21300F07EC2}

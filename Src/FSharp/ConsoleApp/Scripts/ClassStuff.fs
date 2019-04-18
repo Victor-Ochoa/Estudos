@@ -25,6 +25,17 @@ type Dog(name, height, weight) =
     member this.Bark =
         printfn "%s Barks" this.Name
 
+
+type Anima2(name: string, height: float, weight:float) =
+
+    let action (act:string) = printfn "%s %s" name act
+
+    member this.Name = name 
+    member this.Height = height
+    member this.Weight = weight
+    member this.Run = action "Runs"
+
+
 let class_stuff() =
     
     let spot = new Animal("Spot", 20.5, 40.5)
@@ -36,3 +47,8 @@ let class_stuff() =
     bowser.Run
 
     bowser.Bark
+
+    let atena = new Anima2("Atena", 20.5, 40.5)
+
+    atena.Run
+
